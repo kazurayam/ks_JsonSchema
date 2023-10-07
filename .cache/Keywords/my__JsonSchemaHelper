@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "24EE166E3B5B35D0E855C324A21895B1",
+  "keywordFileContentHash": "1655CCDFDD317F6DEEDAB9DD2714802D",
   "keywordClasses": [
     {
       "name": "my.JsonSchemaHelper",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
