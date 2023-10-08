@@ -14,7 +14,7 @@ import my.JsonSchemaHelper
 String data = '''
 {
     "abbreviation": "JST",
-    "client_ip": "163.131.26.171",
+    "client_ip": "163.131.26.7",
     "datetime": "2023-10-01T22:15:18.742317+09:00",
     "day_of_week": 0,
     "day_of_year": 274,
