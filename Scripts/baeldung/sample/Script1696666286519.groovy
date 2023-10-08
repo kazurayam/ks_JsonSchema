@@ -1,5 +1,4 @@
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.*
+import static org.assertj.core.api.Assertions.*;
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.networknt.schema.JsonSchema
@@ -49,4 +48,4 @@ JsonSchema schema = helper.getJsonSchemaFromStringContent(schemaContent)
 JsonNode node = helper.getJsonNodeFromStringContent(data)
 Set<ValidationMessage> errors = schema.validate(node)
 assertThat(errors.size(), is(1))
-
+assertThat(errors).isNotEmpty().asString().contains("price: must have a minimum value of 0")
