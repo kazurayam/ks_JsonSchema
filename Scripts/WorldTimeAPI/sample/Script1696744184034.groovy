@@ -44,7 +44,8 @@ String schemaContent = '''
         },
         "client_ip": {
             "description": "the IP address of the client",
-            "type": "string"
+            "type": "string",
+            "pattern": "[\\\\.0-9]+"
         },
         "datetime": {
             "description": "an ISO8601-valid string representing the current, local date/time",
